@@ -1,6 +1,6 @@
 package Test;
 
-public class Junit {
+public class GeneralFunctions {
 	
 	public String Concatenate(String one,String two)
 	{
