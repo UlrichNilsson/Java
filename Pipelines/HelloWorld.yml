@@ -25,5 +25,5 @@ steps:
     script: |
       ls
       echo "Hello world"
-- script: javac HelloWorld.java --configuration $(buildConfiguration)
+- script: javac HelloWorld/HelloWorld.java --configuration $(buildConfiguration)
   displayName: 'Javac build HelloWorld $(buildConfiguration)'
